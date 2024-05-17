@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: rgb(223, 130, 43); /* Color de fondo del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para que los elementos se muestren en línea */
+}
+
+nav ul li {
+    display: inline; /* o display: inline-block; */
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff; /* Color del texto del enlace */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    padding: 10px; /* Espacio alrededor del texto del enlace */
+}
+
+nav ul li a:hover {
+    background-color: rgb(230, 177, 107); /* Color de fondo cuando se pasa el mouse sobre el enlace */
+}
+
+.Encabezado {
+
+    width: 571px; /* Ancho del contenedor */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(223, 130, 43);
+}
+.Logo { 
+    position: fixed;
+    top: 20px; /* ajusta la posición vertical según tus necesidades */
+    left: 650px; /* ajusta la posición horizontal según tus necesidades */
+    z-index: 1; /* asegura que la imagen superpuesta esté sobre la imagen de fondo */
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+.Imgpromo1{
+    
+    position: absolute;
+    top: 200px; /* ajusta la posición vertical según tus necesidades */
+    left: 80px; /* ajusta la posición horizontal según tus necesidades */
+
+}
+
+.Promo1{
+
+    position: fixed;
+    top: 10px; /* ajusta la posición vertical según tus necesidades */
+    left: 20px; /* ajusta la posición horizontal según tus necesidades */
+ 
+
+}
+
+.Promo01{
+    position: fixed;
+    top: 560px; /* ajusta la posición vertical según tus necesidades */
+    left: 100px; /* ajusta la posición horizontal según tus necesidades */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;  
+    color: white;
+}
+body{
+    background-color: rgb(32, 32, 32);
+}
+
