@@ -82,11 +82,9 @@ nav ul li a:hover {
     font-weight: bold;  
     color: white;
 }
-p
-{
-     color: whitesmoke;
-}
+
 body{
     background-color: rgb(32, 32, 32);
+     color: whitesmoke;
 }
 
