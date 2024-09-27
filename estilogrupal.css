@@ -86,16 +86,5 @@ nav ul li a:hover {
 body{
     background-color: rgb(32, 32, 32);
 }
-table, th, td {
-    border: 1px white;
-    padding: 10px;
-    text-align: left;
-    color: whitesmoke;
-}
-.btnaa {
-    color: whitesmoke;
-}
-table{
-    color: whitesmoke;
-}
+
 
